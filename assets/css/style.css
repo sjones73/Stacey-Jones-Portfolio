@@ -12,6 +12,14 @@
 
 .centerText {
     text-align: center;
+    font-size: 2rem;
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+}
+
+.aboutMeText {
+    text-align: center;
+    font-size: 1rem;
 }
 
 body {
@@ -26,10 +34,14 @@ h1{
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 20px;
     background-color: #2a607c;
     color: #ffffff;
+}
+
+header h1 {
+    font-size: 3rem; 
 }
 
 img {
@@ -45,17 +57,39 @@ img {
 }
 
 header nav a {
-    padding: ;
+    color: #ffffff;
 
 }
 
+.work {
+    border: 1px solid pink;
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+}
+.mainProject {
+    height: 40%;
+}
+
+.projectRow {
+    height:30%
+}
+
+.project {
+    display: block;
+}
+
 footer {
+    justify-content: space-between;
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    margin: 20px 0px 20px 0px;
 }
 
 footer h2 {
+    justify-content: space-between;
     font-size: 20px;
+    margin: 20px 0px 20px 0px;
 }
